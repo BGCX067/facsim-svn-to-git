@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="GUIFrame.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="12167" topLine="221" />
+	</File>
+	<File name="GUIFrame.h" open="0" top="0" tabpos="3">
+		<Cursor position="2126" topLine="64" />
+	</File>
+	<File name="SimuLabApp.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="615" topLine="0" />
+	</File>
+	<File name="SimuLabMain.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="11621" topLine="302" />
+	</File>
+	<File name="SimuLabMain.h" open="0" top="0" tabpos="2">
+		<Cursor position="1134" topLine="9" />
+	</File>
+	<File name="simbase.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1843" topLine="104" />
+	</File>
+	<File name="simbase.h" open="1" top="0" tabpos="1">
+		<Cursor position="1276" topLine="71" />
+	</File>
+	<File name="simmachine.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="742" topLine="203" />
+	</File>
+	<File name="simmachine.h" open="1" top="0" tabpos="7">
+		<Cursor position="653" topLine="21" />
+	</File>
+	<File name="simpart.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="263" topLine="0" />
+	</File>
+	<File name="simpart.h" open="0" top="0" tabpos="3">
+		<Cursor position="947" topLine="0" />
+	</File>
+	<File name="simqueue.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="170" topLine="99" />
+	</File>
+	<File name="simqueue.h" open="1" top="0" tabpos="4">
+		<Cursor position="469" topLine="10" />
+	</File>
+	<File name="simscript.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="simscript.h" open="1" top="0" tabpos="9">
+		<Cursor position="388" topLine="20" />
+	</File>
+</CodeBlocks_layout_file>

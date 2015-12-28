@@ -1,0 +1,10 @@
+#ifndef SIMQUEUE_H
+#define SIMQUEUE_H
+#include "simbase.h"
+#include "simpart.h"
+#include "simmachine.h"
+#include "simqueue.h"
+#include "simscript.h"
+
+
+#ednif

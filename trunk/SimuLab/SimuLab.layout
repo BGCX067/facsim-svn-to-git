@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Add-ons/include/angelscript.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="1071" />
+	</File>
+	<File name="Add-ons/source/as_builder.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="28174" topLine="1053" />
+	</File>
+	<File name="GUIFrame.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="287" topLine="66" />
+	</File>
+	<File name="GUIFrame.h" open="0" top="0" tabpos="10">
+		<Cursor position="2250" topLine="78" />
+	</File>
+	<File name="SimuLabApp.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="615" topLine="0" />
+	</File>
+	<File name="SimuLabDlg.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="453" topLine="105" />
+	</File>
+	<File name="SimuLabDlg.h" open="1" top="0" tabpos="3">
+		<Cursor position="1355" topLine="29" />
+	</File>
+	<File name="SimuLabMain.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="14007" topLine="391" />
+	</File>
+	<File name="SimuLabMain.h" open="0" top="0" tabpos="2">
+		<Cursor position="1027" topLine="29" />
+	</File>
+	<File name="machinedlg.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="machinedlg.h" open="0" top="0" tabpos="0">
+		<Cursor position="296" topLine="0" />
+	</File>
+	<File name="simbase.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="4249" topLine="215" />
+	</File>
+	<File name="simbase.h" open="0" top="0" tabpos="5">
+		<Cursor position="4782" topLine="19" />
+	</File>
+	<File name="simlab.h" open="0" top="0" tabpos="9">
+		<Cursor position="227" topLine="0" />
+	</File>
+	<File name="simmachine.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="499" topLine="81" />
+	</File>
+	<File name="simmachine.h" open="1" top="0" tabpos="2">
+		<Cursor position="471" topLine="28" />
+	</File>
+	<File name="simpart.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="263" topLine="0" />
+	</File>
+	<File name="simpart.h" open="0" top="0" tabpos="6">
+		<Cursor position="947" topLine="51" />
+	</File>
+	<File name="simproject.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="1112" topLine="31" />
+	</File>
+	<File name="simproject.h" open="0" top="0" tabpos="4">
+		<Cursor position="228" topLine="0" />
+	</File>
+	<File name="simqueue.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="170" topLine="99" />
+	</File>
+	<File name="simqueue.h" open="0" top="0" tabpos="4">
+		<Cursor position="469" topLine="10" />
+	</File>
+	<File name="simscript.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="7417" topLine="308" />
+	</File>
+	<File name="simscript.h" open="0" top="0" tabpos="7">
+		<Cursor position="903" topLine="0" />
+	</File>
+	<File name="simview.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="426" topLine="0" />
+	</File>
+	<File name="simview.h" open="0" top="0" tabpos="6">
+		<Cursor position="389" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

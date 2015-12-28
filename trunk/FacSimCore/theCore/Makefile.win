@@ -1,0 +1,63 @@
+# Project: Ëã·¨2009
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 6.10.2 on 26-02-09 10:37
+
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = windres.exe
+OBJ       = Objects/MingW/main.o Objects/MingW/simevent.o Objects/MingW/simmachine.o Objects/MingW/simobject.o Objects/MingW/simpart.o Objects/MingW/simqueue.o Objects/MingW/simmodel.o Objects/MingW/simclock.o Objects/MingW/simobjectlist.o Objects/MingW/simeventlist.o Objects/MingW/MyModel.o
+LINKOBJ   = Objects/MingW/main.o Objects/MingW/simevent.o Objects/MingW/simmachine.o Objects/MingW/simobject.o Objects/MingW/simpart.o Objects/MingW/simqueue.o Objects/MingW/simmodel.o Objects/MingW/simclock.o Objects/MingW/simobjectlist.o Objects/MingW/simeventlist.o Objects/MingW/MyModel.o
+LIBS      = -L"D:/Dev-Cpp/Lib"  
+INCS      = -I"include"
+CXXINCS   = -I"D:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include" -I"D:/Dev-Cpp/include/c++/3.4.2/backward" -I"D:/Dev-Cpp/include/c++/3.4.2/mingw32" -I"D:/Dev-Cpp/include/c++/3.4.2" -I"D:/Dev-Cpp/include" -I"D:/Dev-Cpp/" -I"D:/Dev-Cpp/include/common/wx/msw" -I"D:/Dev-Cpp/include/common/wx/generic" -I"D:/Dev-Cpp/include/common/wx/fl" -I"D:/Dev-Cpp/include/common/wx/gizmos" -I"D:/Dev-Cpp/include/common/wx/html" -I"D:/Dev-Cpp/include/common/wx/mmedia" -I"D:/Dev-Cpp/include/common/wx/net" -I"D:/Dev-Cpp/include/common/wx/ogl" -I"D:/Dev-Cpp/include/common/wx/plot" -I"D:/Dev-Cpp/include/common/wx/protocol" -I"D:/Dev-Cpp/include/common/wx/stc" -I"D:/Dev-Cpp/include/common/wx/svg" -I"D:/Dev-Cpp/include/common/wx/xml" -I"D:/Dev-Cpp/include/common/wx/xrc" -I"D:/Dev-Cpp/include/common/wx" -I"D:/Dev-Cpp/include/common"
+RCINCS    = --include-dir "D:/Dev-Cpp/include/common"
+BIN       = Output/MingW/Ëã·¨2009.exe
+DEFINES   = 
+CXXFLAGS  = $(CXXINCS) $(DEFINES)  
+CFLAGS    = $(INCS) $(DEFINES)  
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "Output\MingW\Ëã·¨2009.exe" $(LIBS)
+
+Objects/MingW/main.o: $(GLOBALDEPS) main.cpp simPart.h simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simmodel.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simobjectlist.h simeventlist.h
+	$(CPP) -c main.cpp -o Objects/MingW/main.o $(CXXFLAGS)
+
+Objects/MingW/simevent.o: $(GLOBALDEPS) simevent.cpp simobject.h simpart.h simqueue.h simpart.h simclock.h simmodel.h simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c simevent.cpp -o Objects/MingW/simevent.o $(CXXFLAGS)
+
+Objects/MingW/simmachine.o: $(GLOBALDEPS) simmachine.cpp simobject.h simevent.h simobject.h simpart.h simqueue.h simpart.h simmodel.h simobject.h simmachine.h simpart.h simevent.h simpart.h simqueue.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c simmachine.cpp -o Objects/MingW/simmachine.o $(CXXFLAGS)
+
+Objects/MingW/simobject.o: $(GLOBALDEPS) simobject.cpp simevent.h simobject.h
+	$(CPP) -c simobject.cpp -o Objects/MingW/simobject.o $(CXXFLAGS)
+
+Objects/MingW/simpart.o: $(GLOBALDEPS) simpart.cpp
+	$(CPP) -c simpart.cpp -o Objects/MingW/simpart.o $(CXXFLAGS)
+
+Objects/MingW/simqueue.o: $(GLOBALDEPS) simqueue.cpp simpart.h simmodel.h simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c simqueue.cpp -o Objects/MingW/simqueue.o $(CXXFLAGS)
+
+Objects/MingW/simmodel.o: $(GLOBALDEPS) simmodel.cpp simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c simmodel.cpp -o Objects/MingW/simmodel.o $(CXXFLAGS)
+
+Objects/MingW/simclock.o: $(GLOBALDEPS) simclock.cpp
+	$(CPP) -c simclock.cpp -o Objects/MingW/simclock.o $(CXXFLAGS)
+
+Objects/MingW/simobjectlist.o: $(GLOBALDEPS) simobjectlist.cpp simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h
+	$(CPP) -c simobjectlist.cpp -o Objects/MingW/simobjectlist.o $(CXXFLAGS)
+
+Objects/MingW/simeventlist.o: $(GLOBALDEPS) simeventlist.cpp simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h simmodel.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c simeventlist.cpp -o Objects/MingW/simeventlist.o $(CXXFLAGS)
+
+Objects/MingW/MyModel.o: $(GLOBALDEPS) MyModel.cpp simobject.h simmachine.h simpart.h simevent.h simobject.h simpart.h simqueue.h simpart.h simclock.h simobjectlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simmodel.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h simobjectlist.h simeventlist.h simobject.h simmachine.h simevent.h simpart.h simqueue.h simclock.h
+	$(CPP) -c MyModel.cpp -o Objects/MingW/MyModel.o $(CXXFLAGS)

@@ -1,0 +1,13 @@
+#FacSim=Factory Simulation
+
+= Introduction =
+
+FacSim is an open source simulation platform for industry analysis and research.
+
+
+= Details =
+
+  * DEDS Medelling and Simulation
+  * 3D Interface and Scenario
+  * Rich reporting graphics and tables
+  * C++ like Script

@@ -1,0 +1,10 @@
+__lwqstage__	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^#define __lwqstage__$/;"	macro	line:2
+lwqStage	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^class lwqStage : public MyBase$/;"	class	line:18	inherits:MyBase
+lwqStage	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	lwqStage();$/;"	prototype	line:22	class:lwqStage	access:public	signature:()
+~lwqStage	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	~lwqStage();$/;"	prototype	line:23	class:lwqStage	access:public	signature:()
+TryPush	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	bool TryPush();$/;"	prototype	line:25	class:lwqStage	access:public	signature:()
+Operate	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	bool Operate();$/;"	prototype	line:26	class:lwqStage	access:public	signature:()
+StageLength	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	double StageLength;$/;"	member	line:28	class:lwqStage	access:protected
+beOperated	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	Part *beOperated;$/;"	member	line:30	class:lwqStage	access:protected
+entered	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	Part *entered;$/;"	member	line:31	class:lwqStage	access:protected
+NextStage	/home/WANGMengChang/Projects/FacSim/svn/branches/Lwq/lwqstage.h	/^	lwqstage* NextStage;$/;"	member	line:32	class:lwqStage	access:protected

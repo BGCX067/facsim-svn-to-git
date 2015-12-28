@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="include/Machine.h" open="1" top="1" tabpos="5">
+		<Cursor position="1012" topLine="9" />
+	</File>
+	<File name="include/MyBase.h" open="1" top="0" tabpos="2">
+		<Cursor position="1216" topLine="42" />
+	</File>
+	<File name="include/Queue.h" open="1" top="0" tabpos="7">
+		<Cursor position="873" topLine="18" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1250" topLine="44" />
+	</File>
+	<File name="src/Machine.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1241" topLine="0" />
+	</File>
+	<File name="src/MyBase.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3827" topLine="164" />
+	</File>
+	<File name="src/Queue.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="4759" topLine="225" />
+	</File>
+</CodeBlocks_layout_file>
